@@ -9,7 +9,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>RestaurantManagement_Distributed</RootNamespace>
     <AssemblyName>RestaurantManagement_Distributed</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -113,6 +113,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\RestaurantManagement.BLL\RestaurantManagement.BLL.csproj">
       <Project>{96c62e96-3913-4dd9-ae6d-c8a324be1279}</Project>
       <Name>RestaurantManagement.BLL</Name>
@@ -125,9 +128,6 @@
       <Project>{0241e7d3-c174-4025-afa5-4bcea3f7bb10}</Project>
       <Name>RestaurantManagement.Domain</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>RestaurantManagement.Domain</RootNamespace>
     <AssemblyName>RestaurantManagement.Domain</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -61,6 +61,7 @@
     <Compile Include="Employee.cs" />
     <Compile Include="Food.cs" />
     <Compile Include="IEntity.cs" />
+    <Compile Include="Models\AccountModel.cs" />
     <Compile Include="Models\LoginModel.cs" />
     <Compile Include="RestaurantContext.cs" />
     <Compile Include="Table.cs" />
