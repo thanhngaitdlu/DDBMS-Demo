@@ -16,7 +16,7 @@ namespace RestaurantManagement.BLL.Security
 
         public LoginModel GetLoginInfo(string loginName)
         {
-            return _unitOfWork.SprocQuery<LoginModel>("sp_GetLoginInfo", new object[] { loginName }).FirstOrDefault();
+            return _unitOfWork.SprocQuery<LoginModel>("SP_GetLoginInfo", new object[] { loginName }).FirstOrDefault();
            
         }
     }

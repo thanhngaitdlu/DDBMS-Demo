@@ -31,7 +31,7 @@ namespace RestaurantManagement_Distributed
             try
             {
                 if (WorkingContext.Instance.CurrentLoginInfo.RoleName != "CongTy") cbbBranch.Enabled = false;
-                dgvEmployee.DataSource = _empService.GetAll().ToList();
+                //dgvEmployee.DataSource = _empService.GetAll().ToList();
             }
             catch (Exception ex)
             {

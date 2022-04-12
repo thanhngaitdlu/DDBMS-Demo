@@ -49,8 +49,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account\AccountServices.cs" />
-    <Compile Include="Account\IAccountServices.cs" />
     <Compile Include="Foods\FoodService.cs" />
     <Compile Include="Foods\IFoodService.cs" />
     <Compile Include="Security\LoginService.cs" />
